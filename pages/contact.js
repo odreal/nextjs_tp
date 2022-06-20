@@ -8,7 +8,7 @@ return (
     <Layout>
         <h1>📧 Formulaire de contact</h1>
         <article>
-            <h3>Utilisez le formulaire de contact ci-dessous pour m'envoyer un message !</h3>
+            <h3>Utilisez le formulaire de contact ci-dessous pour m&apos;envoyer un message !</h3>
             <form
             className={styles.form}
             action="https://formspree.io/f/mwkyjkap"
