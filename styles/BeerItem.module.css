@@ -5,3 +5,13 @@
 .containerHalfSize {
     width: 50%;
 }
+
+.beerContainer {
+    padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .beerContainer {
+        flex-direction: column;
+    }
+}

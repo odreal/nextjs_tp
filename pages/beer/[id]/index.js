@@ -33,7 +33,7 @@ export default function BeerItem({ beer }) {
     <Layout>
       <h1>🍺 {beer.name}</h1>
       <article className={globalStyles.articleMedium}>
-        <div className={globalStyles.flexRow+" "+globalStyles.flexAround}>
+        <div className={globalStyles.flexRow+" "+globalStyles.flexAround+" "+styles.beerContainer}>
           <img className={styles.beerImg} src={beer.image_url} alt="" />
           <div className={globalStyles.flexColumn+" "+styles.containerHalfSize}>
             <h3>{beer.name}</h3>
