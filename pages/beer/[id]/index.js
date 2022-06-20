@@ -42,7 +42,7 @@ export default function BeerItem({ beer }) {
             <div>
               <p>Bière idéale pour manger :</p>
               <ul>
-              {beer.food_pairing.map((el) => (
+              {beer.food_pairing.map((el, id) => (
                 <li  key={id}>🍽️ {el}</li>
               ))}
               </ul>
