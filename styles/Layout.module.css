@@ -1,0 +1,38 @@
+.container {
+    max-width: 36rem;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: #6c5ce7;
+    width: 100%;
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+.logo {
+    width: 40px;
+}
+
+.backToHome {
+    margin: 3rem 0 0;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+}
