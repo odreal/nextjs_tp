@@ -41,11 +41,11 @@ export default function BeerItem({ beer }) {
             <p>🥴 Alc.{beer.abv}%</p>
             <div>
               <p>Bière idéale pour manger :</p>
+              <ul>
               {beer.food_pairing.map((el) => (
-                <ul>
-                  <li>🍽️ {el}</li>
-                </ul>
+                <li  key={id}>🍽️ {el}</li>
               ))}
+              </ul>
             </div>
           </div>
         </div>
